@@ -1,0 +1,37 @@
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.color {
+  flex-grow: 1;
+  padding: 0 3px;
+  border: none;
+  
+}
+#colorpicker {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  height: 38px;
+  outline: none;
+
+}
+
+.lang {
+  border: 0px solid black;
+  padding: 5px;
+  margin: 0 3px;
+  border-bottom: sandybrown 3px solid;
+  height: 30px;
+  transition: ease 0.3s;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+ 
+}
+.lang:hover {
+  border-bottom: sandybrown 6px solid;
+}
